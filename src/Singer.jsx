@@ -1,6 +1,6 @@
-export default function Singer({singer}){
+export default function Singer({ singer }) {
     console.log(singer);
-    return(
+    return (
         <div>
             <h3>Singer: {singer.name}</h3>
             <p>age: {singer.age}</p>
